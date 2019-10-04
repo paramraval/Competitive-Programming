@@ -5,6 +5,7 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.util.Arrays.
 
 public class MinMaxArray {
 
@@ -12,7 +13,7 @@ public class MinMaxArray {
     static void miniMaxSum(int[] arr){
         double min = 0,max = 0,sum = 0;
         
-        for(int i = 1; i < arr.length; i++){
+ /*       for(int i = 1; i < arr.length; i++){
                 for(int j = i; j > 0; j--){
                     if(arr[j] < arr[j-1]){
                         int temp = arr[j];
@@ -20,7 +21,8 @@ public class MinMaxArray {
                         arr[j-1] = temp;
                     }
                 }
-            }
+            }          */
+        Arrays.sort(arr);
         for(int i = 0; i < arr.length; i++){
             sum += arr[i]; 
         }
