@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.*;
 
 class FindDistictDigitInNumber{
-	static int[] arr = new arr[100];
+	static int[] arr = new int[100];
 	static int findDistictDigitInNumber(int start, int end){
 		int ans = -1;
 		int number = 0;
