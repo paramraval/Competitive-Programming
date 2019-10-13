@@ -119,10 +119,8 @@ public class TimeInWords {
             int H = 0,M = 0;
             m = 60 - m;
             h = h + 1;
-            
             result = getMin(m) + " to " + getHour(h);      
         }
-    
         return result;
     }
 
