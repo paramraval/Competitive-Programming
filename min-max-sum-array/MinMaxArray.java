@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class MinMaxArray {
 
-    // Complete the miniMaxSum function below.
+ // Complete the miniMaxSum function below.
     static void miniMaxSum(int[] arr){
         double min = 0,max = 0,sum = 0;
         
